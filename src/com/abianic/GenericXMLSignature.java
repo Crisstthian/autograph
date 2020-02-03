@@ -16,7 +16,17 @@ public abstract class GenericXMLSignature {
     private String pathSignature;
     private String passSignature;
 
-    private Document execute () throws Exception {
+    public void setPathSignature(String pathSignature)
+    {
+        this.pathSignature = pathSignature;
+    }
+
+    public void setPassSignature(String passSignature)
+    {
+        this.passSignature = passSignature;
+    }
+
+    protected Document execute () throws Exception {
 
         KeyStore keyStore = this.getKeyStore();
         if (keyStore == null)

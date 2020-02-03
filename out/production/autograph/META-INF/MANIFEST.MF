@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: xml-apis-1.3.04.jar bctsp-jdk16-1.45.jar commons-lang-2.4.ja
+ r bcmail-jdk16-1.45.jar bcprov-jdk16-1.45.jar commons-codec-1.2.jar MIT
+ yCLibAPI-1.1.7.jar MITyCLibTSA-1.1.7.jar MITyCLibCert-1.1.7.jar MITyCLi
+ bOCSP-1.1.7.jar MITyCLibCrypt-1.1.7.jar MITyCLibTrust-1.1.7.jar MITyCLi
+ bXADES-1.1.7.jar MITyCLibPolicy-1.1.7.jar commons-logging-1.1.1.jar xml
+ sec-1.4.2-ADSI-1.0.jar xmlsec-1.4.2-ADSI-1.1.jar commons-httpclient-3.0
+ .1.jar
+
